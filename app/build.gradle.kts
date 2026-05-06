@@ -44,8 +44,6 @@ android {
 }
 
 dependencies {
-    implementation(project(":rotating-composable"))
-
     val composeBom = platform(libs.androidx.compose.bom)
     implementation(composeBom)
     implementation(libs.androidx.activity.compose)
