@@ -9,7 +9,7 @@ class RotatingComposablePlugin : Plugin<Project> {
 
     private val groupId = "com.milkyway"
     private val artifactId = "imaging-fused"
-    private val version = "1.2.0"
+    private val version = "1.3.0"
     private val imagingFusedAarUrl = "https://github.com/anawu2006/MilkyWay/raw/refs/heads/main/libs/imaging-fused.aar"
 
     private val aarDependencies = listOf(
